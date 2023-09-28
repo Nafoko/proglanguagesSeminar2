@@ -10,9 +10,9 @@ Console.WriteLine($"{number} -> {secondDigit}");
 
 int SecondDigit(int num)
 {
-    int firstDigit = number / 100;
-    int lastDigit = number % 10;
-    int numResult = number / 10 - lastDigit;
+    int firstDigit = number / 10; //из 467 остается 46
+    int lastDigit = firstDigit % 10;
+    int numResult = lastDigit;
     return numResult;
 }
 
