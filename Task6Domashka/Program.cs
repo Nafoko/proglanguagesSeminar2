@@ -11,8 +11,7 @@ Console.WriteLine($"{number} -> {secondDigit}");
 int SecondDigit(int num)
 {
     int firstDigit = number / 10; //из 467 остается 46
-    int lastDigit = firstDigit % 10;
-    int numResult = lastDigit;
+    int numResult = firstDigit % 10;
     return numResult;
 }
 
