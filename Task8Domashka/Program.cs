@@ -6,9 +6,7 @@
 // 7 -> да
 // 1 -> нет
 
-using System;
-using System.Diagnostics.CodeAnalysis;
-using Internal;
+
 
 int Promt(string message)
 {
